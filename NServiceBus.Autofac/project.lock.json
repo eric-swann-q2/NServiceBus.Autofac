@@ -1,0 +1,129 @@
+{
+  "locked": false,
+  "version": -9996,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "Autofac/4.0.0-alpha2-beta5": {
+        "frameworkAssemblies": [
+          "mscorlib",
+          "System",
+          "System.Core",
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/dnx451/Autofac.dll": {},
+          "lib/dnx451/Autofac.Dnx.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Autofac.dll": {},
+          "lib/dnx451/Autofac.Dnx.dll": {}
+        }
+      },
+      "Fody/1.28.3": {},
+      "NServiceBus/5.2.3": {
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NServiceBus.Core.dll": {}
+        }
+      },
+      "Obsolete.Fody/3.1.0.0": {
+        "dependencies": {
+          "Fody": null
+        },
+        "compile": {
+          "Lib/NET35/Obsolete.dll": {}
+        },
+        "runtime": {
+          "Lib/NET35/Obsolete.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/4.0.0-alpha2-beta5": {
+      "sha512": "aR6Pb7+FzfXLFkp6rgKSGI390QrKp0FBQi6n/ms7sFNVe0vebHMqTRARM/ZNeMoYlfD1ERhU2y+uGZMuuL15aQ==",
+      "files": [
+        "Autofac.4.0.0-alpha2-beta5.nupkg",
+        "Autofac.4.0.0-alpha2-beta5.nupkg.sha512",
+        "Autofac.nuspec",
+        "lib/dnx451/Autofac.dll",
+        "lib/dnx451/Autofac.Dnx.dll",
+        "lib/dnx451/Autofac.Dnx.xml",
+        "lib/dnx451/Autofac.xml",
+        "lib/dnxcore50/Autofac.dll",
+        "lib/dnxcore50/Autofac.Dnx.dll",
+        "lib/dnxcore50/Autofac.Dnx.xml",
+        "lib/dnxcore50/Autofac.xml",
+        "lib/portable-net45+win+wpa81+wp80/Autofac.dll",
+        "lib/portable-net45+win+wpa81+wp80/Autofac.xml"
+      ]
+    },
+    "Fody/1.28.3": {
+      "sha512": "t2XvzaMNGg8pRwxlZlou5cFJDUon1zOVLvI9XciLy1pZ3DP42ewupkLt1fwUg6I9hmLypsDRe08fVOgl+xND0g==",
+      "files": [
+        "Fody.1.28.3.nupkg",
+        "Fody.1.28.3.nupkg.sha512",
+        "Fody.dll",
+        "Fody.nuspec",
+        "Fody.pdb",
+        "FodyCommon.dll",
+        "FodyCommon.pdb",
+        "FodyIsolated.dll",
+        "FodyIsolated.pdb",
+        "Mono.Cecil.dll",
+        "Mono.Cecil.Mdb.dll",
+        "Mono.Cecil.Pdb.dll",
+        "Mono.Cecil.Rocks.dll",
+        "build/Fody.targets",
+        "Content/FodyWeavers.xml",
+        "Tools/install.ps1",
+        "Tools/uninstall.ps1"
+      ]
+    },
+    "NServiceBus/5.2.3": {
+      "sha512": "ub+cwmF2eruLP4VKwxpx3Xf1k6765ee5hwP7TYUGHeti2dPJPPK24E2Fxqo5fkKvcTrvV8WRbu20gdSSOdb9Jw==",
+      "files": [
+        "NServiceBus.5.2.3.nupkg",
+        "NServiceBus.5.2.3.nupkg.sha512",
+        "NServiceBus.nuspec",
+        "lib/net45/NServiceBus.Core.dll",
+        "lib/net45/NServiceBus.Core.pdb",
+        "lib/net45/NServiceBus.Core.xml",
+        "tools/about_NServiceBus.help.txt",
+        "tools/init.ps1",
+        "tools/NServiceBus.PowerShell.Development.dll"
+      ]
+    },
+    "Obsolete.Fody/3.1.0.0": {
+      "sha512": "V/2a+CMDxRgUoiCV+GiJ71TVBH+P9RqMHTrbE539YZ/Mh/tI1ww80CsF3nrAn6W32ZJXEAE+WA8Qj9JwYPBzkQ==",
+      "files": [
+        "Obsolete.Fody.3.1.0.0.nupkg",
+        "Obsolete.Fody.3.1.0.0.nupkg.sha512",
+        "Obsolete.Fody.dll",
+        "Obsolete.Fody.nuspec",
+        "Obsolete.Fody.pdb",
+        "Lib/NET35/Obsolete.dll",
+        "Lib/NET35/Obsolete.xml",
+        "Lib/portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40/Obsolete.dll",
+        "Lib/portable-net4+sl4+wp8+win8+wpa81+MonoAndroid16+MonoTouch40/Obsolete.xml",
+        "Tools/install.ps1",
+        "Tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Autofac >= 4.0.0-alpha2-beta5",
+      "NServiceBus >= 5.2.3",
+      "Fody >= 1.28.3",
+      "Obsolete.Fody >= 3.1.0"
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}
