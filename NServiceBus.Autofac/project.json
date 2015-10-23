@@ -1,14 +1,14 @@
 {
-	"version": "1.0.0-*",
-	"description": "",
-	"authors": [ "" ],
+	"version": "5.2.6-beta8-00001",
+	"description": "Nuget Autofac Package compatible with DNX Beta 8",
+	"authors": [ "Q2 OAO Team" ],
 	"tags": [ "" ],
 	"projectUrl": "",
 	"licenseUrl": "",
 
 	"dependencies": {
-		"Autofac": "4.0.0-alpha2-beta5",
-		"NServiceBus": "5.2.3",
+		"Autofac": "4.0.0-beta8-157",
+		"NServiceBus": "5.2.6",
 		"Fody": "1.28.3",
 		"Obsolete.Fody": "3.1.0"
 	},

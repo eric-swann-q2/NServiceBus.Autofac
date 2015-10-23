@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NServiceBus.Autofac", "NServiceBus.Autofac\NServiceBus.Autofac.xproj", "{66A57031-B389-42F9-B760-06458FA31985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AE65D01-F5EA-48E7-8F60-018548B8AA9C}"
+	ProjectSection(SolutionItems) = preProject
+		NServiceBus.Autofac\global.json = NServiceBus.Autofac\global.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
